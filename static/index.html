@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find what AI literacy means for your situation. Explore AI literacy frameworks and map your context and choose a practical next step.">
+  <meta name="theme-color" content="#203e36">
+  <title>AI Literacy Compass — Find your starting point</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#context" aria-label="AI Literacy Compass home"><span class="brandmark">✳</span><span>AI Literacy <b>Compass</b></span></a>
+    <nav aria-label="Main navigation"><button class="nav active" data-nav="context">Your compass</button><button class="nav" data-nav="explore">Explore the framework</button><button class="nav" data-nav="activity">My next step <span id="activity-dot"></span></button></nav>
+    <button class="iconbutton" id="about" aria-label="About this compass">?</button>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer><div><span class="footerstar">✳</span> A starting point. A wider perspective.</div><div id="catalog-count"></div><a href="https://lukas-liu.github.io/ai-litearcy/#sphere" target="_blank" rel="noopener">Built upon AI Literacy Atlas ↗</a></footer>
+  <dialog id="detail"><div id="dialog-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.js"></script>
+</body></html>
